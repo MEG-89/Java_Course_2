@@ -55,6 +55,8 @@ public class CalculatorInt
             if (subStr2 != null) break;
         }
 
+        if (operator == ' ')
+        return "Не найден арифметический оператор.";
 
         try
         {
